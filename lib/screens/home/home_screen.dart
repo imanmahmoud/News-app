@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:news_app/screens/home/home_drawer.dart';
+/*import 'package:news_app/my_theme.dart';*/
 
 class HomeScreen extends StatelessWidget {
   static const String routeName='home screen';
@@ -7,6 +9,11 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      drawer: HomeDrawer(),
+      appBar: AppBar(title:Text('news app') ,
+      ),
+      body: Container(color: Colors.white),
+    );
   }
 }

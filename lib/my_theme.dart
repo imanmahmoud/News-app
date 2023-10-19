@@ -47,7 +47,8 @@ class MyTheme {
                 bottomRight: Radius.circular(24))),
       ),
     bottomSheetTheme: BottomSheetThemeData(backgroundColor: whiteColor,),
-    textSelectionTheme:TextSelectionThemeData(selectionColor: greenColor)
+    textSelectionTheme:TextSelectionThemeData(selectionColor: greenColor),
+    drawerTheme: DrawerThemeData(backgroundColor: whiteColor,)
 
   );
 }
